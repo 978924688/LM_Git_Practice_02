@@ -11,7 +11,7 @@ using namespace std;
 
 int main(void)
 {
-    AbstractCalculator *p = new Add(3,7)
+    AbstractCalculator *p = new Add(3, 7);
     cout << p->m_Val_1 << "+" << p->m_Vla_2 << "=" << p->get_Result() << endl;
 
     p = new Minus(4,8);
@@ -27,7 +27,5 @@ int main(void)
     
     system("pause");
     return 0;
-
-    2020-03-29
 
 }
